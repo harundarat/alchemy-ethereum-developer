@@ -13,6 +13,8 @@ const balances = {
   "0xc6f52629ead05cc5449f": 75,
   "0xa70d5af6f68955be3f87": 230,
   "0x9852619eec67a94484bc": 1000,
+  "0xff8cf52905c10c9362c9": 150,
+  "0x97c3040c9acb699ba181": 0,
 };
 
 app.post("/balance/:signature", (req, res) => {
